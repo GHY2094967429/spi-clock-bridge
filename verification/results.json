@@ -1,0 +1,41 @@
+{
+  "release_date": "2026-11-02",
+  "scope": "independent_hmc7044_clock_bridge",
+  "adc_acquisition_code_included": false,
+  "python_tests_passed": 21,
+  "rtl_tb_bridge": "passed",
+  "qt_model_self_test": {
+    "mode": "software_demo",
+    "hardware_tested": false,
+    "passed": true,
+    "checks": [
+      "status",
+      "write_verify",
+      "read",
+      "batch_order"
+    ],
+    "successful_jobs": 244,
+    "failed_jobs": 0,
+    "configuration": {
+      "filename": "7044out.py",
+      "sha256": "cfe713af13fb24079609e5d2c0fadbdf859f2c8d3a222bf96bbc009a3ee940ba",
+      "writes": 238,
+      "duplicates": 0,
+      "ordered_writes_match": true,
+      "model_readback_match": true
+    }
+  },
+  "vivado_version": "2024.2",
+  "full_build": "passed",
+  "physical_serial_test_performed_for_release": false,
+  "synthesis": "passed",
+  "implementation": "passed",
+  "ip_package_integrity": "passed",
+  "wns_ns": 30.154,
+  "whs_ns": 0.022,
+  "tns_ns": 0,
+  "ths_ns": 0,
+  "drc_errors": 0,
+  "timing_scope": "existing_user_constraints_only_not_board_level_signoff",
+  "bitstream_distributed": false
+}

@@ -1,0 +1,26 @@
+test_bounds (test_clock_bridge.HostTests.test_bounds) ... ok
+test_crc_standard_check (test_clock_bridge.HostTests.test_crc_standard_check) ... ok
+test_roundtrip_and_errors (test_clock_bridge.HostTests.test_roundtrip_and_errors) ... ok
+test_stream_resynchronization (test_clock_bridge.HostTests.test_stream_resynchronization) ... ok
+test_batch_order_and_stop_between_transactions (test_gui.GuiTests.test_batch_order_and_stop_between_transactions) ... ok
+test_cancel_and_close_during_import_delay (test_gui.GuiTests.test_cancel_and_close_during_import_delay) ... ok
+test_close_waits_for_current_transaction_and_closes_port (test_gui.GuiTests.test_close_waits_for_current_transaction_and_closes_port) ... ok
+test_csv_all_rows_checked_and_hex_semantics (test_gui.GuiTests.test_csv_all_rows_checked_and_hex_semantics) ... ok
+test_demo_write_read_and_status (test_gui.GuiTests.test_demo_write_read_and_status) ... ok
+test_failed_verification_stops_batch (test_gui.GuiTests.test_failed_verification_stops_batch) ... ok
+test_io_failure_disconnects_and_clears_status (test_gui.GuiTests.test_io_failure_disconnects_and_clears_status) ... ok
+test_official_preview_is_atomic_and_defaults_to_write_only (test_gui.GuiTests.test_official_preview_is_atomic_and_defaults_to_write_only) ... ok
+test_ordered_import_delay_and_restart_preserve_mode_bits (test_gui.GuiTests.test_ordered_import_delay_and_restart_preserve_mode_bits) ... ok
+test_timeout_does_not_block_ui_or_retry_write (test_gui.GuiTests.test_timeout_does_not_block_ui_or_retry_write) ... ok
+test_csv_roundtrip_compatibility (test_official_config.OfficialConfigTests.test_csv_roundtrip_compatibility) ... ok
+test_delay_stays_between_writes_and_rounds_up (test_official_config.OfficialConfigTests.test_delay_stays_between_writes_and_rounds_up) ... ok
+test_file_metadata_and_utf16 (test_official_config.OfficialConfigTests.test_file_metadata_and_utf16) ... ok
+test_no_writes_or_excessive_input_rejected (test_official_config.OfficialConfigTests.test_no_writes_or_excessive_input_rejected) ... ok
+test_out_of_range_and_syntax_errors (test_official_config.OfficialConfigTests.test_out_of_range_and_syntax_errors) ... ok
+test_unknown_code_is_rejected_even_after_valid_writes (test_official_config.OfficialConfigTests.test_unknown_code_is_rejected_even_after_valid_writes) ... ok
+test_write_order_duplicates_comments_and_number_bases (test_official_config.OfficialConfigTests.test_write_order_duplicates_comments_and_number_bases) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 1.708s
+
+OK

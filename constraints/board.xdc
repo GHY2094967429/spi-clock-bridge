@@ -1,0 +1,48 @@
+# The Clock Wizard XDC defines the 200 MHz input clock (5 ns).
+set_property IOSTANDARD DIFF_SSTL12 [get_ports sys_clk_p]
+set_property IOSTANDARD DIFF_SSTL12 [get_ports sys_clk_n]
+set_property PACKAGE_PIN AK17 [get_ports sys_clk_p]
+set_property PACKAGE_PIN AK16 [get_ports sys_clk_n]
+
+
+set_property PACKAGE_PIN AJ11 [get_ports uart_top_input]
+set_property PACKAGE_PIN AM9 [get_ports uart_top_output]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_top_input] 
+set_property IOSTANDARD LVCMOS33 [get_ports uart_top_output]
+
+set_property PACKAGE_PIN E12 [get_ports led[0]]
+set_property PACKAGE_PIN F12 [get_ports led[1]]
+set_property PACKAGE_PIN L9 [get_ports led[2]]
+set_property PACKAGE_PIN H23 [get_ports led[3]]
+set_property IOSTANDARD LVCMOS18 [get_ports led[0]]
+set_property IOSTANDARD LVCMOS18 [get_ports led[1]]
+set_property IOSTANDARD LVCMOS18 [get_ports led[2]]
+set_property IOSTANDARD LVCMOS18 [get_ports led[3]]
+
+set_property IOSTANDARD LVCMOS18 [get_ports spi_csn] 
+set_property IOSTANDARD LVCMOS18 [get_ports spi_clk]
+set_property IOSTANDARD LVCMOS18 [get_ports spi_io]
+set_property IOSTANDARD LVCMOS18 [get_ports hmc7044_rst]
+#set_property IOSTANDARD LVDS [get_ports clk_buf_p]
+
+#set_property IOSTANDARD LVCMOS18 [get_ports hmc7044_sync]
+#set_property IOSTANDARD LVCMOS18 [get_ports fmc_led]
+
+set_property PACKAGE_PIN B20 [get_ports spi_csn]
+set_property PACKAGE_PIN D26 [get_ports spi_clk]
+set_property PACKAGE_PIN E26 [get_ports spi_io]
+set_property PACKAGE_PIN A20 [get_ports hmc7044_rst]
+#set_property PACKAGE_PIN E18 [get_ports clk_buf_p]
+set_property PACKAGE_PIN B27 [get_ports fmc_led]
+set_property PACKAGE_PIN H9  [get_ports hmc7044_gpio1]
+set_property IOSTANDARD LVCMOS18 [get_ports fmc_led]
+set_property IOSTANDARD LVCMOS18  [get_ports hmc7044_gpio1]
+#set_property PACKAGE_PIN L22 [get_ports hmc7044_csn]
+#set_property PACKAGE_PIN K25 [get_ports hmc7044_sclk]
+#set_property PACKAGE_PIN L25 [get_ports hmc7044_sdio]
+#set_property PACKAGE_PIN K23 [get_ports hmc7044_rst]
+#set_property PACKAGE_PIN AD9 [get_ports hmc7044_sync]
+#set_property PACKAGE_PIN R27 [get_ports fmc_led]
+
+set_property BITSTREAM.CONFIG.UNUSEDPIN Pullnone [current_design]
+set_property BITSTREAM.GENERAL.COMPRESS true [current_design]

@@ -1,0 +1,21 @@
+Clock Bridge Studio uses these third-party runtime components:
+
+Qt 6 / PySide6 / Shiboken6, The Qt Company and contributors.
+PySide6 and Shiboken6 are offered under LGPLv3/GPLv3/commercial terms.
+Qt module license terms vary. Runtime libraries remain separate dynamic libraries.
+https://www.qt.io/licensing/open-source-lgpl-obligations
+https://code.qt.io/cgit/pyside/pyside-setup.git/
+https://code.qt.io/cgit/qt/qtbase.git/
+
+pyserial, Chris Liechti and contributors, BSD 3-Clause.
+https://github.com/pyserial/pyserial
+
+Python, Python Software Foundation and contributors, PSF license.
+https://docs.python.org/3/license.html
+
+PyInstaller bootloader, PyInstaller contributors, GPL with distribution exception.
+https://pyinstaller.org/en/stable/license.html
+
+Bundled license texts and package metadata are copied to licenses/ by build_gui.ps1.
+Application Python source and build scripts are supplied in the host/ directory
+of the project. The demonstration model does not represent hardware measurements.

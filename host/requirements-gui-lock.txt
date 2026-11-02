@@ -1,0 +1,4 @@
+# Runtime versions verified on Windows x64 / Python 3.13.12.
+pyserial==3.5
+PySide6-Essentials==6.8.3
+shiboken6==6.8.3
